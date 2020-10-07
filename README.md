@@ -1,8 +1,8 @@
-# outsystems-plugin-nativealert
-Shows a native ios alert with a message passed as a parameter (iOS only)
-
 ###### Powered by  
 ![OutSystems][oslogo-image]
+
+# outsystems-plugin-nativealert
+Shows a native ios alert with a message passed as a parameter (iOS only)
 
 [oslogo-image]:https://www.outsystems.com/-/media/themes/outsystems/website/site-theme/imgs/logo.svg
 
