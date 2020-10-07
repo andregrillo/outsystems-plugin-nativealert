@@ -1,0 +1,25 @@
+{
+  "name": "outsystems-plugin-nativealert",
+  "version": "0.0.1",
+  "description": "Shows a native alert",
+  "cordova": {
+    "id": "outsystems-plugin-nativealert",
+    "platforms": [
+      "ios"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andregrillo/outsystems-plugin-nativealert.git"
+  },
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-ios"
+  ],
+  "author": "Andre Grillo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andregrillo/outsystems-plugin-nativealert/issues"
+  },
+  "homepage": "https://github.com/andregrillo/outsystems-plugin-nativealert#readme"
+}
