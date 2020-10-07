@@ -19,7 +19,28 @@
     if (message != nil && [message length] > 0) {
         
         UIAlertController *alertController = [UIAlertController alertControllerWithTitle:@"My Plugin" message:message preferredStyle:UIAlertControllerStyleAlert];
-        //...
+        
+        
+        //Add buttons
+        UIAlertAction* yesButton = [UIAlertAction actionWithTitle:@"OK"
+                                                            style:UIAlertActionStyleDefault
+                                                          handler:^(UIAlertAction * action)
+        {
+            NSLog(@"you pressed Yes, please button");
+            // call method whatever u need
+        }];
+        UIAlertAction* noButton = [UIAlertAction actionWithTitle:@"Cancel"
+                                                            style:UIAlertActionStyleDefault
+                                                          handler:^(UIAlertAction * action)
+        {
+            NSLog(@"you pressed No, thanks button");
+            // call method whatever u need
+        }];
+        [alertController addAction:yesButton];
+        [alertController addAction:noButton];
+        
+        
+        
         id rootViewController = [UIApplication sharedApplication].delegate.window.rootViewController;
         if([rootViewController isKindOfClass:[UINavigationController class]])
         {
@@ -31,6 +52,7 @@
         }
         //...
         [rootViewController presentViewController:alertController animated:YES completion:nil];
+        
         
         pluginResult = [CDVPluginResult resultWithStatus:CDVCommandStatus_OK messageAsString:message];
     } else {
