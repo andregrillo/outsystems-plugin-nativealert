@@ -18,7 +18,7 @@ $ cordova plugin add https://github.com/andregrillo/outsystems-plugin-nativealer
 
 Call the showAlert method passing the string to be shown as a parameter:
 ```
-cordova.plugins.NativeAlert.showAlert(function(){},function(){},"This is my alert message!");
+cordova.plugins.NativeAlert.showAlert(function(success){},function(error){},"This is my alert message!");
 ```
 
 #### Notes
