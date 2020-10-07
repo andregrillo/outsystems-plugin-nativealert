@@ -22,4 +22,4 @@ cordova.plugins.NativeAlert.showAlert(function(){},function(){},"This is my aler
 ```
 
 #### Notes
-> This plugin was created exclusively to the OutSystems Native Plugins Webinar for partners
+> This plugin was created exclusively for the OutSystems Native Plugins Webinar for partners as a demonstration
